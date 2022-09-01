@@ -15,6 +15,7 @@
 **Breaking** - Drop support for Ruby 2.4, support Ruby 2.7+ [@mathroule](https://github.com/mathroule) [#1378](https://github.com/danger/danger/pull/1378)
 **Breaking** - Drop support for Ruby 2.4, support Ruby 2.7+ [@mathroule](https://github.com/mathroule) [#1378](https://github.com/danger/danger/pull/1378) 
 * Check pull request to Danger repo on macOS, Ubuntu and Windows - [@mathroule](https://github.com/mathroule) [#1365](https://github.com/danger/danger/pull/1381)
+* Allow `import_dangerfile(path: '...')` to accept full path. - [@jkmathew](https://github.com/jkmathew) [#1380](https://github.com/danger/danger/pull/1380)
 <!-- Your comment above here -->
 * VSTS / Azure DevOps: Fix submission of inline comments with recent Ruby versions. - [@yanniks](https://github.com/yanniks)
 
