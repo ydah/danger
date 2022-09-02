@@ -11,6 +11,12 @@
 ## master
 * Support batch builds in AWS CodeBuild [@ihatov08](https://github.com/ihatov08)
 <!-- Your comment below here -->
+
+<!-- Your comment above here -->
+
+
+## 9.0.0
+
 **Breaking** - Drop support for Ruby 2.4, support Ruby 2.7+ [@mathroule](https://github.com/mathroule) [#1378](https://github.com/danger/danger/pull/1378)
 * Update Octokit dependency to version 5.0. - [@mathroule](https://github.com/mathroule) [#1377](https://github.com/danger/danger/pull/1377)
 **Breaking** - Drop support for Ruby 2.6, support Ruby 2.7+ [@mathroule](https://github.com/mathroule) [#1378](https://github.com/danger/danger/pull/1378)
@@ -21,6 +27,8 @@
 * Add option to post file specific comments outside of the PR diff to Bitbucket Server, when using Code Insights API. [@pahnev](https://github.com/pahnev)
 <!-- Your comment above here -->
 * VSTS / Azure DevOps: Fix submission of inline comments with recent Ruby versions. - [@yanniks](https://github.com/yanniks)
+* VSTS / Azure DevOps: Fix submission of inline comments with recent Ruby versions. - [@yanniks](https://github.com/yanniks)
+
 
 ## 8.6.1
 
