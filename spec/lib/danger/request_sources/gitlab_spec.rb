@@ -167,7 +167,7 @@ RSpec.describe Danger::RequestSources::GitLab, host: :gitlab do
         skip "gitlab gem older than 4.6.0" if Gem.loaded_specs["gitlab"].version < Gem::Version.new("4.6.0")
       end
 
-      it "is false on verions before 10.8" do
+      it "is false on version before 10.8" do
         stub_version("10.6.4")
 
         expect(subject.supports_inline_comments).to be_falsey
