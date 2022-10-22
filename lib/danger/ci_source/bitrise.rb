@@ -24,7 +24,7 @@ module Danger
   # Danger will read the environment variable GIT_REPOSITORY_URL to construct the Bitbucket Server API URL
   # finding the project and repo slug in the GIT_REPOSITORY_URL variable. This GIT_REPOSITORY_URL variable
   # comes from the App Settings tab for your Bitrise App. If you are manually setting a repo URL in the
-  # Git Clone Repo step, you may need to set adjust this propery in the settings tab, maybe even fake it.
+  # Git Clone Repo step, you may need to set adjust this property in the settings tab, maybe even fake it.
   # The patterns used are `(%r{\.com/(.*)})` and `(%r{\.com:(.*)})` and .split(/\.git$|$/) to remove ".git" if the URL contains it.  
   #
   class Bitrise < CI
